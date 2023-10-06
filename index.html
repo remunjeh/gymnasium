@@ -1,0 +1,161 @@
+
+<!-- Example-1: Access HTML element using document.getElementsByTagName(“HTML”)[0]; -->
+
+<!-- <!DOCTYPE html>
+<html>
+<title>
+	HTML | DOM HTML Object Property
+</title>
+<style>
+	body {
+		text-align: center;
+		width: 70%;
+	}
+	
+	h1 {
+		color: green;
+	}
+	
+	h1,
+	h2 {
+		text-align: center;
+	}
+</style>
+
+<body>
+	<h1>GeeksforGeeks</h1>
+	<h2> HTML Object</h2>
+
+	<p>Click the button to get the
+	HTML content of the html element.</p>
+	<p>Using the getElementsByTagName("HTML")[0]
+	and documentElement</p>
+	<button onclick="GFG()">Click</button>
+
+	<p id="Geeks"></p>
+
+	<script>
+		function GFG() {
+			// access and return html element
+			var x =
+			document.getElementsByTagName(
+				"HTML")[0].innerHTML;
+			document.getElementById("Geeks").innerHTML =
+			"getElementsByTagName" + x;
+			var y =
+			document.documentElement.innerHTML;
+			document.getElementById("Geeks").innerHTML =
+			y + "documentElement";
+		}
+	</script>
+</body>
+
+</html>
+
+
+<!-- Example-2: Access html element and return element is first or second. -->
+<!-- <!DOCTYPE html>
+<html>
+<title>
+	HTML | DOM HTML Object Property
+</title>
+<style>
+	body {
+		text-align: center;
+		width: 70%;
+	}
+	
+	h1 {
+		color: green;
+	}
+	
+	h1,
+	h2 {
+		text-align: center;
+	}
+</style>
+
+<body>
+	<h1>GeeksforGeeks</h1>
+	<h2> HTML Object</h2>
+
+	<p>Click the button to get the
+	HTML content of the html element.</p>
+	<p>Using the document.documentElement</p>
+	<button onclick="GFG()">Click</button>
+
+	<p id="Geeks"></p>
+
+	<script>
+		function GFG() {
+			// Access html element and return html
+		// with position value of html element.
+			var x =
+			document.documentElement.innerHTML;
+			document.getElementById(
+			"Geeks").innerHTML = "first" + x;
+			
+			var y =
+			document.documentElement.innerHTML;
+			document.getElementById(
+			"Geeks").innerHTML = y + "second";
+		}
+	</script>
+</body>
+
+</html> --> 
+
+<!-- Example-3: Access html element and return all child with specified tag name.
+
+ -->
+ <!DOCTYPE html>
+ <html>
+ <title>
+     HTML | DOM HTML Object Property
+ </title>
+ <style>
+     body {
+         text-align: center;
+         width: 70%;
+     }
+     
+     h1 {
+         color: green;
+     }
+     
+     h1,
+     h2 {
+         text-align: center;
+     }
+ </style>
+ 
+ <body>
+     <h1>GYMNASIUM HESSEN</h1>
+     <h2> HTML Object</h2>
+ 
+     <p>Click the button to get the
+     HTML content of the html element.</p>
+     <p>Using the getElementsByTagName("HTML")[0]
+     and documentElement</p>
+     <button onclick="GFG()">Click</button>
+ 
+     <p id="peace"></p>
+ 
+     <script>
+         function GFG() {
+             // access and return html element
+             let x =
+             document.getElementsByTagName(
+                 "HTML")[0].innerHTML;
+             document.getElementById("peace").innerHTML =
+             "getElementsByTagName" + x;
+             let y =
+             document.documentElement.innerHTML;
+             document.getElementById("peace").innerHTML =
+             y + "documentElement";
+         }
+     </script>
+ </body>
+ 
+ </html>
+ 
